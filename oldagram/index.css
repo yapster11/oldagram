@@ -1,0 +1,99 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-top: 5px;   
+}
+
+#logo {
+    width: 127px;
+    height: 55px;
+}
+
+#user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.poster {
+    border-top: 1px solid #C4C4C4;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#post-avatar {
+    padding-top: 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#post {
+    width: 375px;
+    height: 375px;
+}
+
+.poster-details {
+    margin-left: 10px;
+    line-height: 0px; 
+    font-size: 10px;
+}
+
+#poster-id, #poster-loc {
+    padding-bottom: 5px;
+}
+
+#poster-id {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#poster-loc {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.post-info {
+    padding: 0px;
+    margin: 0px;  
+}
+
+.icon {
+    padding-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon:hover, .icon:focus {
+    opacity: 0.5;
+    width: 30px;
+    height: 30px;
+}
+
+#likes {
+    margin: 12px 0px; 
+    font-size: 13px;
+    font-weight: 700; 
+}
+
+#caption {
+    margin: 0px;
+    margin-bottom: 16px;
+    font-size: 13px;   
+}
+
+#username {
+    font-weight: 700;
+}
